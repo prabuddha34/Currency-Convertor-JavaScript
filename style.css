@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(
+    to right,
+    var(--gray-200),
+    var(--gray-400),
+    var(--gray-600),
+    var(--gray-800)
+  );
+  color: #edf2f7;
+
+}
+
+:root {
+  --gray-100: #f7fafc;
+  --gray-200: #edf2f7;
+  --gray-300: #e2e8f0;
+  --gray-400: #cbd5e0;
+  --gray-500: #a0aec0;
+  --gray-600: #718096;
+  --gray-700: #4a5568;
+  --gray-800: #2d3748;
+  --gray-900: #1a202c;
+}
+
+#myh1{
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.2rem;
+  color: black;
+
+}
+
+#mycontainer {
+  width: fit-content;
+  margin: 0 auto;      
+}
+
+#myinput{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(251, 255, 255);
+  border:none;
+  border-radius: 11px;
+
+}
+#toCurrency{
+   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(0, 245, 29);
+
+}
+
+#convert{
+  
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: monospace;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #9005e6;
+  color: white;
+  cursor: pointer;
+
+}
+#output{
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2.5rem;
+   display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+
+}
